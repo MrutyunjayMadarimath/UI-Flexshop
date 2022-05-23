@@ -1,0 +1,93 @@
+/* textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {  
+  border:none;
+  border-color: rgb(34, 34, 34)(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(51, 51, 51, 0.6);
+  outline: 0 none;
+
+}  */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+ 
+html, body{
+ overflow-x: hidden;
+ }
+
+ body{
+   font-family: 'Inter', sans-serif;
+ }
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+} 
+
+.form-control:focus {
+  border: none;
+     background: #ffffff;
+     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 0.5);
+   }
+    
+   
+ 
+   input:focus,
+   select:focus,
+   textarea:focus,
+   button:focus {
+       outline: none;
+       border: none;
+   }
+ 
+ input[type="search"]::-webkit-search-decoration,
+ input[type="search"]::-webkit-search-cancel-button,
+ input[type="search"]::-webkit-search-results-button,
+ input[type="search"]::-webkit-search-results-decoration { display: none; 
+ outline: none; border: none}
+  
+ input[type="check-box"]
+
+ .search-bar{
+     border: none;
+     border-bottom: 2px solid black;
+     background-color:  #ffffff;
+ }
+ 
+ .box-check:active,
+ .box-check:active {
+     background-color: black;
+ }
+
+ /* .logo{
+  text-shadow: 4px -1px 2px rgba(0,0,0,0.1);
+ }
+  */
+ /* .fs-0{
+   font-size: 0.8rem;
+ } */
+
+ @media(max-width: 414px){
+    .fs-0 {
+        font-size: 0.8rem;
+    }
+ }
