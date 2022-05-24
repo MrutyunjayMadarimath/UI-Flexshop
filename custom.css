@@ -43,6 +43,9 @@ html, body{
   box-shadow: none;
 } 
 
+.btn.btn-outline-dark:active{
+  background-color: #ffffff!important;
+}
 .form-control:focus {
   border: none;
      background: #ffffff;

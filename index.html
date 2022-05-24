@@ -18,7 +18,7 @@
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand fw-bolder fs-3" href="#"><mark style="background-color:#fff"
-                    class="p-3 logo">SHOE-SHOP</mark></a>
+                    class="p-3 logo fw-light">FLEX</a>
             <button class="navbar-toggler d-lg-none border-0 rounded-0" type="button" data-bs-toggle="collapse"
                 data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                 aria-label="Toggle navigation"><i class="fa-solid fa-bars text-white border-0"></i></button>
@@ -130,10 +130,10 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <div class="col bg-dark">
+                    <div class="col bg-dark" style="height: 250px;">
                         <h1 class="text-white text-center fw-bolder display-4 mt-5 p-4">Awesome deals on branded shoes.
                         </h1>
-                        <p class="text-white text-center display-1 fw-bolder">60% Off!</p>
+                        <p class="text-white text-center display-1 fw-bolder mb">60% Off!</p>
                     </div>
                 </div>
             </div>
@@ -143,14 +143,15 @@
     <Section class="shop">
         <div class="container-fluid">
             <div class="row">
-                                              <!-- Filters -->
+                <!-- Filters -->
                 <!-- Sex - Desktop -->
                 <div class="col-2 d-none d-lg-block bg-light p-2">
+                    <h2 class="text-center fw-bold mt-2">Filters</h2>
                     <div class="accordion accordion-flush text-dark bg-white" id="accordionFlushExample">
                         <div class="accordion-item bg-white">
                             <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed text-dark shadow-none bg-white" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                <button class="accordion-button collapsed text-dark shadow-none bg-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
                                     aria-controls="flush-collapseOne">
                                     Sex
                                 </button>
@@ -163,49 +164,50 @@
                                         <div class="form-check d-flex">
                                             <input type="checkbox" class="form-check box-check" name="brand">
                                             <label for="brands" class="px-2">Male</label>
-                                            </div>
-                                            <div class="form-check d-flex">
-                                            <input type="checkbox" class="form-check box-check" name="brand">
-                                            <label for="brands" class="px-2">Female</label>
-                                            </div>
-                                            <div class="form-check d-flex">
-                                            <input type="checkbox" class="form-check box-check" name="brand">
-                                            <label for="brands" class="px-2">Unisex</label>
-                                            </div>
                                         </div>
-                                    </div>
-                                    <hr>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Sex - Mobile -->
-                <div class="col d-lg-none bg-light pt-3">
-                    <div class="accordion accordion-flush text-dark bg-light" id="accordionFlushOne">
-                        <div class="accordion-item bg-white">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed text-dark shadow-none bg-white" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                    aria-controls="flush-collapseOne">
-                                  Sex
-                                </button>
-                            </h2>
-                            <hr class="text-dark">
-                            <div id="flush-collapseOne" class="accordion-collapse collapse text-dark bg-white"
-                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushOne">
-                                <div class="accordion-body bg-white">
-                                    <div class="form-check-group">
                                         <div class="form-check d-flex">
                                             <input type="checkbox" class="form-check box-check" name="brand">
-                                            <label for="brands" class="px-2">Male</label>
-                                            </div>
-                                            <div class="form-check d-flex">
-                                            <input type="checkbox" class="form-check box-check" name="brand">
                                             <label for="brands" class="px-2">Female</label>
-                                            </div>
-                                            <div class="form-check d-flex">
+                                        </div>
+                                        <div class="form-check d-flex">
                                             <input type="checkbox" class="form-check box-check" name="brand">
                                             <label for="brands" class="px-2">Unisex</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sex - Mobile -->
+                    <div class="d-lg-none bg-light pt-3">
+                        <h2 class="text-center fw-bolder">Filters</h2>
+                        <div class="accordion accordion-flush text-dark bg-light" id="accordionFlushOne">
+                            <div class="accordion-item bg-white">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed text-dark shadow-none bg-white"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                        aria-expanded="false" aria-controls="flush-collapseOne">
+                                        Sex
+                                    </button>
+                                </h2>
+                                <hr class="text-dark">
+                                <div id="flush-collapseOne" class="accordion-collapse collapse text-dark bg-white"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushOne">
+                                    <div class="accordion-body bg-white">
+                                        <div class="form-check-group">
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Male</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Female</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Unisex</label>
                                             </div>
                                         </div>
                                     </div>
@@ -214,216 +216,277 @@
                             </div>
                         </div>
                     </div>
+
+
+                    <!-- Brands - Desktop -->
+                    <div class="d-none d-lg-block bg-light p-2">
+                        <div class="accordion accordion-flush text-dark bg-white" id="accordionFlush2">
+                            <div class="accordion-item bg-white">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed text-dark shadow-none bg-white"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                        aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        Brands
+                                    </button>
+                                </h2>
+                                <hr class="text-dark">
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse text-dark bg-white"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlush2">
+                                    <div class="accordion-body bg-white">
+                                        <div class="form-check-group">
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Nike</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Adidas</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Puma</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Reebok</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Converse</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">New Balance</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check custom-checkbox" name="brand">
+                                                <label for="brands" class="px-2 custom-control-label">Balanciada</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Brands - Mobile -->
+                    <div class="d-lg-none bg-light p-2">
+                        <div class="accordion accordion-flush text-dark bg-white" id="accordionFlush2">
+                            <div class="accordion-item bg-white">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed text-dark shadow-none bg-white"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                        aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        Brands
+                                    </button>
+                                </h2>
+                                <hr class="text-dark">
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse text-dark bg-white"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlush2">
+                                    <div class="accordion-body bg-white">
+                                        <div class="form-check-group">
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Nike</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Adidas</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Puma</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Reebok</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Converse</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">New Balance</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check custom-checkbox" name="brand">
+                                                <label for="brands" class="px-2 custom-control-label">Balanciada</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Colors - Desktop -->
+                    <div class=" d-none d-lg-block bg-light p-2">
+                        <div class="accordion accordion-flush text-dark bg-white" id="accordionFlush3">
+                            <div class="accordion-item bg-white">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed text-dark shadow-none bg-white"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                        aria-expanded="false" aria-controls="flush-collapseThree">
+                                        Colors
+                                    </button>
+                                </h2>
+                                <hr class="text-dark">
+                                <div id="flush-collapseThree" class="accordion-collapse collapse text-dark bg-white"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlush3">
+                                    <div class="accordion-body bg-white">
+                                        <div class="form-check-group">
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Red</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Blue</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">White</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Black</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Off-White</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Green</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check custom-checkbox" name="brand">
+                                                <label for="brands" class="px-2 custom-control-label">Gray</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Colors - Mobile -->
+                    <div class=" d-lg-none bg-light p-2 pt-0">
+                        <div class="accordion accordion-flush text-dark bg-white" id="accordionFlush3">
+                            <div class="accordion-item bg-white">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed text-dark shadow-none bg-white"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                        aria-expanded="false" aria-controls="flush-collapseThree">
+                                        Colors
+                                    </button>
+                                </h2>
+                                <hr class="text-dark">
+                                <div id="flush-collapseThree" class="accordion-collapse collapse text-dark bg-white"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlush3">
+                                    <div class="accordion-body bg-white">
+                                        <div class="form-check-group">
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Red</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Green</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Blue</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">White</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Off-white</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check box-check" name="brand">
+                                                <label for="brands" class="px-2">Gray</label>
+                                            </div>
+                                            <div class="form-check d-flex">
+                                                <input type="checkbox" class="form-check custom-checkbox" name="brand">
+                                                <label for="brands" class="px-2 custom-control-label">Black</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Price Range -->
+                    <div class="d-none d-lg-block bg-white p-2">
+                        <label for="customRange" class="form-label">0-100K</label>
+                        <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange">
+                    </div>
+
                 </div>
+
+                <!-- Filters End -->
+
+                <!-- Shop Column -->
+                <div class="col d-flex justify-content-around mt-5">
+                    <!-- Toasts -->
+                    <div>
+                        <button class="btn btn-outline-dark rounded-0 text-dark fw-bold"> <a href="#"
+                                class="text-decoration-none text-dark">Men <i
+                                    class="uil uil-times mx-3"></i></a></button>
+                    </div>
+                    <div>
+                        <button class="btn btn-outline-dark rounded-0 text-dark fw-bold"> <a href="#"
+                                class="text-decoration-none text-dark">White <i
+                                    class="uil uil-times mx-3"></i></a></button>
+                    </div>
+                    <div>
+                        <button class="btn btn-outline-dark rounded-0 text-dark fw-bold"> <a href="#"
+                                class="text-decoration-none text-dark">Unisex <i
+                                    class="uil uil-times mx-3"></i></a></button>
+                    </div>
+                    <div>
+                        <button class="btn btn-outline-dark rounded-0 text-dark fw-bold"> <a href="#"
+                                class="text-decoration-none text-dark">Puma <i
+                                    class="uil uil-times mx-3"></i></a></button>
+                    </div>
+
+
+                    <!-- Featured -->
+                    <div class="dropdown mt-2">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Featured
+                        </button>
+                        <ul class="dropdown-menu border-0 shadow" aria-labelledby="dropdownMenu2">
+                            <li><button class="dropdown-item" type="button">Delhi</button></li>
+                            <li><button class="dropdown-item" type="button">Mumbai</button></li>
+                            <li><button class="dropdown-item" type="button">Bangalore</button></li>
+                        </ul>
+                    </div>
+
+
+
+
+
+
+
+
                 </div>
+
             </div>
         </div>
-         <!-- Brands - Desktop -->
-         <div class="col-2 d-none d-lg-block bg-light p-2">
-            <div class="accordion accordion-flush text-dark bg-white" id="accordionFlush2">
-                <div class="accordion-item bg-white">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed text-dark shadow-none bg-white" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                            aria-controls="flush-collapseTwo">
-                            Brands
-                        </button>
-                    </h2>
-                    <hr class="text-dark">
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse text-dark bg-white"
-                        aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlush2">
-                        <div class="accordion-body bg-white">
-                            <div class="form-check-group">
-                                <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">Nike</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">Adidas</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">Puma</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">Reebok</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">Converse</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">New Balance</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check custom-checkbox" name="brand">
-                                    <label for="brands" class="px-2 custom-control-label">Balanciada</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <hr>
-                        </div>
-                    </div>
-                </div>
-            </div>
-         <!-- Brands - Mobile -->
-         <div class="col d-lg-none bg-light p-2">
-            <div class="accordion accordion-flush text-dark bg-white" id="accordionFlush2">
-                <div class="accordion-item bg-white">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed text-dark shadow-none bg-white" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                            aria-controls="flush-collapseTwo">
-                            Brands
-                        </button>
-                    </h2>
-                    <hr class="text-dark">
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse text-dark bg-white"
-                        aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlush2">
-                        <div class="accordion-body bg-white">
-                            <div class="form-check-group">
-                                <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">Nike</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">Adidas</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">Puma</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">Reebok</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">Converse</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">New Balance</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check custom-checkbox" name="brand">
-                                    <label for="brands" class="px-2 custom-control-label">Balanciada</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <hr>
-                        </div>
-                    </div>
-                </div>
-            </div>
-         <!-- Colors - Desktop -->
-         <div class="col-2 d-none d-lg-block bg-light p-2">
-            <div class="accordion accordion-flush text-dark bg-white" id="accordionFlush3">
-                <div class="accordion-item bg-white">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed text-dark shadow-none bg-white" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseThree" aria-expanded="false"
-                            aria-controls="flush-collapseThree">
-                            Colors
-                        </button>
-                    </h2>
-                    <hr class="text-dark">
-                    <div id="flush-collapseThree" class="accordion-collapse collapse text-dark bg-white"
-                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlush3">
-                        <div class="accordion-body bg-white">
-                            <div class="form-check-group">
-                                <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">Red</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">Blue</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">White</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">Black</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">Off-White</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">Green</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check custom-checkbox" name="brand">
-                                    <label for="brands" class="px-2 custom-control-label">Gray</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <hr>
-                        </div>
-                    </div>
-                </div>
-            </div>
-         <!-- Colors - Mobile -->
-         <div class="col d-lg-none bg-light p-2 pt-0">
-            <div class="accordion accordion-flush text-dark bg-white" id="accordionFlush3">
-                <div class="accordion-item bg-white">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed text-dark shadow-none bg-white" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseThree" aria-expanded="false"
-                            aria-controls="flush-collapseThree">
-                            Colors
-                        </button>
-                    </h2>
-                    <hr class="text-dark">
-                    <div id="flush-collapseThree" class="accordion-collapse collapse text-dark bg-white"
-                        aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlush3">
-                        <div class="accordion-body bg-white">
-                            <div class="form-check-group">
-                                <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">Red</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">Green</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">Blue</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">White</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">Off-white</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check box-check" name="brand">
-                                    <label for="brands" class="px-2">Gray</label>
-                                    </div>
-                                    <div class="form-check d-flex">
-                                    <input type="checkbox" class="form-check custom-checkbox" name="brand">
-                                    <label for="brands" class="px-2 custom-control-label">Black</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <hr>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
     </Section>
+
+
+
 
 
     <script src="https://kit.fontawesome.com/ab692d7b0d.js" crossorigin="anonymous"></script>
