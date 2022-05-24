@@ -121,7 +121,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col bg-dark p-2">
-                    <div class="text-center ">
+                    <div class="text-center">
                         <img class="img-fluid my-4 px-5" src="/images/model-1.png">
                         <img class="img-fluid my-4 px-5" src="/images/model-2.png">
                         <img class="img-fluid my-4 px-5" src="/images/model-3.png">
@@ -430,58 +430,243 @@
                         <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange">
                     </div>
 
+                    <div class="col-2">
+                        <img src="/images/model-1.png">
+                    </div>
+                    <div class="col-2">
+                        <img src="/images/model-2.png">
+                    </div>
+                    <div class="col-2">
+                        <img src="/images/model-3.png">
+                    </div>
+
                 </div>
 
                 <!-- Filters End -->
 
                 <!-- Shop Column -->
-                <div class="col d-flex justify-content-around mt-5">
-                    <!-- Toasts -->
-                    <div>
-                        <button class="btn btn-outline-dark rounded-0 text-dark fw-bold"> <a href="#"
-                                class="text-decoration-none text-dark">Men <i
-                                    class="uil uil-times mx-3"></i></a></button>
-                    </div>
-                    <div>
-                        <button class="btn btn-outline-dark rounded-0 text-dark fw-bold"> <a href="#"
-                                class="text-decoration-none text-dark">White <i
-                                    class="uil uil-times mx-3"></i></a></button>
-                    </div>
-                    <div>
-                        <button class="btn btn-outline-dark rounded-0 text-dark fw-bold"> <a href="#"
-                                class="text-decoration-none text-dark">Unisex <i
-                                    class="uil uil-times mx-3"></i></a></button>
-                    </div>
-                    <div>
-                        <button class="btn btn-outline-dark rounded-0 text-dark fw-bold"> <a href="#"
-                                class="text-decoration-none text-dark">Puma <i
-                                    class="uil uil-times mx-3"></i></a></button>
-                    </div>
+                <div class="col">
+                    <div class="d-flex justify-content-evenly flex-column text-center flex-lg-row mt-5 my-2">
+                        <!-- Toasts -->
+                        <div class="mb-2">
+                            <button class="btn btn-lg btn-outline-dark w-100 rounded-0 text-dark fw-bold"> <a href="#"
+                                    class="text-decoration-none text-dark">Men <i
+                                        class="uil uil-times mx-5"></i></a></button>
+                        </div>
+                        <div class="mb-2 visually-hidden">
+                            <button class="btn btn-lg btn-outline-dark rounded-0 w-100 text-dark fw-bold"> <a href="#"
+                                    class="text-decoration-none text-dark">White <i
+                                        class="uil uil-times mx-5"></i></a></button>
+                        </div>
+
+                        <div class="mb-2">
+                            <button class="btn btn-lg btn-outline-dark w-100  rounded-0 text-dark fw-bold"> <a href="#"
+                                    class="text-decoration-none text-dark">Unisex <i
+                                        class="uil uil-times mx-5"></i></a></button>
+                        </div>
+                        <div class="mb-2">
+                            <button class="btn btn-lg btn-outline-dark w-100 rounded-0 text-dark fw-bold"> <a href="#"
+                                    class="text-decoration-none text-dark">Puma <i
+                                        class="uil uil-times mx-5"></i></a></button>
+                        </div>
+                        <div class="mb-2">
+                            <button class="btn btn-lg btn-outline-dark w-100 rounded-0 text-dark fw-bold"> <a href="#"
+                                    class="text-decoration-none text-dark">Clear All<i
+                                        class="uil uil-times mx-5"></i></a></button>
+                        </div>
 
 
-                    <!-- Featured -->
-                    <div class="dropdown mt-2">
-                        <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Featured
-                        </button>
-                        <ul class="dropdown-menu border-0 shadow" aria-labelledby="dropdownMenu2">
-                            <li><button class="dropdown-item" type="button">Delhi</button></li>
-                            <li><button class="dropdown-item" type="button">Mumbai</button></li>
-                            <li><button class="dropdown-item" type="button">Bangalore</button></li>
+
+                        <!-- Featured -->
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenu2"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="text-muted">Sort by:</span> Featured
+                            </button>
+                            <ul class="dropdown-menu border-0 shadow" aria-labelledby="dropdownMenu2">
+                                <li><button class="dropdown-item" type="button">Newest</button></li>
+                                <li><button class="dropdown-item" type="button">Popular</button></li>
+                                <li><button class="dropdown-item" type="button">Low to High</button></li>
+                                <li><button class="dropdown-item" type="button">High to Low</button></li>
+                            </ul>
+                        </div>
+                    </div>
+ <!-- Cards -->
+ <!-- 1st Col -->
+                    <div class="col container d-lg-flex justify-content-around mt-5">
+                       
+                        <div class="card bg-light border-0 rounded-0 mt-5" style="width: 18rem;">
+                            <img src="/images/shoe-1.png" class="card-img-top p-2">
+                            <div class="card-body">
+                                <p class="card-text">originals</p>
+                                <h5 class="card-title">Sneakers OZWEEGO</h5>
+                                <div class="d-flex justify-content-between mt-5 align-items-center">
+                                    <span class="fw-bold fs-2">160$ <span
+                                            class="text-decoration-line-through fs-5">$225</span></span>
+                                    <a href="#"><i class="uil uil-shopping-cart-alt text-dark fs-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-light border-0 rounded-0 mt-5" style="width: 18rem;">
+                            <img src="/images/shoe-2.png" class="card-img-top p-2">
+                            <div class="card-body">
+                                <p class="card-text">originals</p>
+                                <h5 class="card-title">Sneakers Ozelia</h5>
+                                <div class="d-flex justify-content-between mt-5 align-items-center">
+                                    <span class="fw-bold fs-2">148$ <span
+                                            class="text-decoration-line-through fs-5">$225</span></span>
+                                    <a href="#"><i class="uil uil-shopping-cart-alt text-dark fs-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-light border-0 rounded-0 mt-5" style="width: 18rem;">
+                            <img src="/images/shoe-3.png" class="card-img-top p-2">
+                            <div class="card-body">
+                                <p class="card-text">originals</p>
+                                <h5 class="card-title">Sneakers ZX 2K BOOST</h5>
+                                <div class="d-flex justify-content-between mt-5 align-items-center">
+                                    <span class="fw-bold fs-2">150$ <span
+                                            class="text-decoration-line-through fs-5">$225</span></span>
+                                    <a href="#"><i class="uil uil-shopping-cart-alt text-dark fs-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-light border-0 rounded-0 mt-5" style="width: 18rem;">
+                            <img src="/images/shoe-4.png" class="card-img-top p-2">
+                            <div class="card-body">
+                                <p class="card-text">originals</p>
+                                <h5 class="card-title">Sneakers FORUM LOW</h5>
+                                <div class="d-flex justify-content-between mt-5 align-items-center">
+                                    <span class="fw-bold fs-2">137$ <span
+                                            class="text-decoration-line-through fs-5">$225</span> </span>
+                                    <a href="#"><i class="uil uil-shopping-cart-alt text-dark fs-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!-- 2nd col -->
+                    <div class="col container d-lg-flex justify-content-evenly">
+                        <div class="card bg-light border-0 rounded-0 mt-5" style="width: 18rem;">
+                            <img src="/images/shoe-5.png" class="card-img-top p-2">
+                            <div class="card-body">
+                                <p class="card-text">originals</p>
+                                <h5 class="card-title">Sneakers FORUM LOW</h5>
+                                <div class="d-flex justify-content-between mt-5 align-items-center">
+                                    <span class="fw-bold fs-2">137$ <span
+                                            class="text-decoration-line-through fs-5">$225</span> </span>
+                                    <a href="#"><i class="uil uil-shopping-cart-alt text-dark fs-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-light border-0 rounded-0 mt-5" style="width: 18rem;">
+                            <img src="/images/shoe-6.png" class="card-img-top p-2">
+                            <div class="card-body">
+                                <p class="card-text">originals</p>
+                                <h5 class="card-title">Sneakers FORUM LOW</h5>
+                                <div class="d-flex justify-content-between mt-5 align-items-center">
+                                    <span class="fw-bold fs-2">137$ <span
+                                            class="text-decoration-line-through fs-5">$225</span> </span>
+                                    <a href="#"><i class="uil uil-shopping-cart-alt text-dark fs-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-light border-0 rounded-0 mt-5" style="width: 18rem;">
+                            <img src="/images/shoe7.png" class="card-img-top p-2">
+                            <div class="card-body">
+                                <p class="card-text">originals</p>
+                                <h5 class="card-title">Sneakers FORUM LOW</h5>
+                                <div class="d-flex justify-content-between mt-5 align-items-center">
+                                    <span class="fw-bold fs-2">137$ <span
+                                            class="text-decoration-line-through fs-5">$225</span> </span>
+                                    <a href="#"><i class="uil uil-shopping-cart-alt text-dark fs-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-light border-0 rounded-0 mt-5" style="width: 18rem;">
+                            <img src="/images/shoe8.png" class="card-img-top p-2">
+                            <div class="card-body">
+                                <p class="card-text">originals</p>
+                                <h5 class="card-title">Sneakers FORUM LOW</h5>
+                                <div class="d-flex justify-content-between mt-5 align-items-center">
+                                    <span class="fw-bold fs-2">137$ <span
+                                            class="text-decoration-line-through fs-5">$225</span> </span>
+                                    <a href="#"><i class="uil uil-shopping-cart-alt text-dark fs-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!-- 3rd col -->
+                    <div class="col container d-lg-flex justify-content-evenly">
+                        <div class="card bg-light border-0 rounded-0 mt-5" style="width: 18rem;">
+                            <img src="/images/shoe9.png" class="card-img-top p-2">
+                            <div class="card-body">
+                                <p class="card-text">originals</p>
+                                <h5 class="card-title">Sneakers FORUM LOW</h5>
+                                <div class="d-flex justify-content-between mt-5 align-items-center">
+                                    <span class="fw-bold fs-2">137$ <span
+                                            class="text-decoration-line-through fs-5">$225</span> </span>
+                                    <a href="#"><i class="uil uil-shopping-cart-alt text-dark fs-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-light border-0 rounded-0 mt-5" style="width: 18rem;">
+                            <img src="/images/shoe10.png" class="card-img-top p-2">
+                            <div class="card-body">
+                                <p class="card-text">originals</p>
+                                <h5 class="card-title">Sneakers FORUM LOW</h5>
+                                <div class="d-flex justify-content-between mt-5 align-items-center">
+                                    <span class="fw-bold fs-2">137$ <span
+                                            class="text-decoration-line-through fs-5">$225</span> </span>
+                                    <a href="#"><i class="uil uil-shopping-cart-alt text-dark fs-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-light border-0 rounded-0 mt-5" style="width: 18rem;">
+                            <img src="/images/shoe11.png" class="card-img-top p-2">
+                            <div class="card-body">
+                                <p class="card-text">originals</p>
+                                <h5 class="card-title">Sneakers FORUM LOW</h5>
+                                <div class="d-flex justify-content-between mt-5 align-items-center">
+                                    <span class="fw-bold fs-2">137$ <span
+                                            class="text-decoration-line-through fs-5">$225</span> </span>
+                                    <a href="#"><i class="uil uil-shopping-cart-alt text-dark fs-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-light border-0 rounded-0 mt-5" style="width: 18rem;">
+                            <img src="/images/shoe12.png" class="card-img-top p-2">
+                            <div class="card-body">
+                                <p class="card-text">originals</p>
+                                <h5 class="card-title">Sneakers FORUM LOW</h5>
+                                <div class="d-flex justify-content-between mt-5 align-items-center">
+                                    <span class="fw-bold fs-2">137$ <span
+                                            class="text-decoration-line-through fs-5">$225</span> </span>
+                                    <a href="#"><i class="uil uil-shopping-cart-alt text-dark fs-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!-- Pagination -->
+                    <nav aria-label="pagination">
+                        <ul class="pagination pagination-lg justify-content-center mt-5 pt-5">
+                          <li class="page-item active" aria-current="page">
+                            <span class="page-link bg-dark border-0 rounded-0 text-white">1</span>
+                          </li>
+                          <li class="page-item" aria-current="page">
+                            <span class="page-link bg-dark border-0 rounded-0 text-white">2</span>
+                          </li>
+                          <li class="page-item" aria-current="page">
+                            <span class="page-link bg-dark border-0 rounded-0 text-white">3</span>
+                          </li>
+                       
                         </ul>
-                    </div>
-
-
-
-
-
-
-
+                      </nav>
 
                 </div>
 
+
             </div>
+        </div>
         </div>
     </Section>
 
